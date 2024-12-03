@@ -1,0 +1,145 @@
+*{
+    height: auto;
+    box-sizing: border-box;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse:collapse ;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: blue;
+    color: white;
+}
+tr:nth-child(even){background-color: rgb(201, 198, 198);}
+tr:hover{background-color: #ddd; color: red;}
+h1{
+    outline: 2px solid hotpink;
+     text-align: center;
+     border: 2px solid red;
+     margin: 20px;
+     background-image: url(workplace.jpg);
+     letter-spacing: 2px;
+     text-indent: 50px;
+     color: #ddd;
+     color: white;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+
+}
+button{
+    border-color:green ;
+    padding:0 20px;
+    margin-left: 50%;
+}
+button:hover{
+    background-color: green;
+}
+tr{
+ height: 30px;
+}
+h1.hidden{
+    
+    visibility: hidden;
+}
+.one{
+    width: 606px;
+    text-align: center;
+    margin-left: 25%;
+}
+.two{
+        width: 606px;
+        text-align: center;
+        margin-left: 25%;
+    }
+h2{
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+}
+div.three{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+}
+div.four{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+    background-color: #cae8ca;
+}
+div.two{
+    position: sticky;
+    top: 0;
+
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  }
+h1.two{
+    outline: 2px solid hotpink;
+     text-align: center;
+    
+     background-image: url(workplace.jpg);
+     letter-spacing: 2px;
+     text-indent: 50px;
+     color: #ddd;
+     color: white;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+}
+
+.box {
+    float: top;
+    width: 25.33%;
+    padding: 50px;
+    color: white;
+    text-align: center;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container{
+    position: relative;
+    border: 2px solid;
+    width: 40%;
+    margin-left:20% ;
+}
+  .white{
+    position: relative;
+    z-index: 3;
+    background-color: #000000;
+    height: 100px;
+    width: 200px;
+      }
+    .blue{
+        position: absolute;
+    z-index: 1;
+    background-color: blue;
+    height: 60px;
+    width: 200px;
+    left: 50px;
+    top: 50px;
+    }
+.green{
+    position: absolute;
+    z-index: 2;
+    background-color: gray;
+    height: 60px;
+    left: 70px;
+    top: 15px;
+    width: 35%;
+}
+.img{
+    border: 2px solid blue;
+    float: right;
+    overflow: auto;
+}
