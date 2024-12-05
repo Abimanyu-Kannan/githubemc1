@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body style="text-align: center;">
+<h2>The javascript</h2>
+<p id="demo">The Javascript change html elements</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">fontsize</button><br><br>
+<button type="button" onclick="document.getElementById('demo').style.display='none'">hidden</button><br><br>
+<p id="one" style="display: none;">hidden folder</p>
+<button type="button" onclick="document.getElementById('one').style.display='block'">show</button><br><br><br>
+
+<button type="button" onclick="document.getElementById('myimage').src='lighton.jpg'"> Turnon light</button><br><br>
+<img id="myimage" src="lightoff.jpg" alt="loading....!">
+<button type="button" onclick="document.getElementById('myimage').src='lightoff.jpg'">Turnoff light</button><br><br>
+<p id="ten"></p>
+<p id="nine"></p>
+<p id="seven"></p>
+<p id="one"></p>
+<button type="button" onclick="document.write(5+9)">check</button>
+<script>
+    document.write(5+6);
+  alert('stay');
+  const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+document.getElementById("one").innerHTML = "The total is: " + total;
+let person="the  Abimanyu",
+carName="volve" ,
+price;
+document.getElementById("ten").innerHTML= carName;
+document.getElementById("nine").innerHTML= price;
+try {
+    const PI=3.00998;
+    PI=3.12;
+}
+catch(err){
+    document.getElementById("eight").innerHTML = err;
+}
+const cars=["toyato","Volve","BmW"];
+cars[0]="saab";
+cars.push("Audi");
+document.getElementById("seven").innerHTML =cars;
+let car = "";
+
+document.getElementById("demo").innerHTML =
+"The value is: " + car + "<br>" + "The type is: " + typeof car; 
+</script>
+</body>
+</html>
