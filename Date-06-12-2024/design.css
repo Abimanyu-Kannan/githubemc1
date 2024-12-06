@@ -1,0 +1,73 @@
+*{
+    cursor: pointer;
+    
+}
+body{
+    background: linear-gradient(to right, pink,lightgreen);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    background-color:yellowgreen;
+    overflow: hidden;
+    z-index: 2;
+  
+}
+li{
+    float: left;
+    margin-left: 30px;
+}
+li a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    
+
+}
+li a:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+.box{
+    width: 25%;
+    display: inline-block;
+}
+.col-25{
+    float: right;
+}
+div.box{
+    margin-left:30px;
+}
+.right{
+    float: right;
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(184, 184, 184);
+    height: 1000px;
+
+}
+.left{
+    float: left;
+    width: 69%;
+    position: absolute;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.img{
+    margin-left: 13%;
+}
+@media screen  and  ( max-width : 700px) {
+    div.box{
+             width: 100%;
+    }
+    
+}
